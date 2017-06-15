@@ -4,13 +4,22 @@ body{
 		>.row{
 			>.logo-container{
 				@include make-md-column(3);
+				@include make-sm-column(3);
+				@include make-xs-column(12);
 				>.logo-container__logo{
-					@include make-md-column(10);
+					width: 80%;
+					margin-left: 50px;
 				}
 			}
 			>.search-container{
 				@include make-md-column(4);
+				@include make-sm-column(4);
+				@include make-xs-column(12);
+
 				@include make-md-column-offset(5);
+				@include make-sm-column-offset(5);
+				@include make-xs-column-offset(0);
+
 				input.search-container__input.form-control{
 					height: 45px;
 					font: 13px $font-main;
