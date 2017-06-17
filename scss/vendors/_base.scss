@@ -7,7 +7,7 @@ a{
 
 .container{
 	>.row{
-		>h2.heading{
+		>h2.heading, h3{
 			margin: 0 0 30px;
 			font: bold 18px $font-main;
 			color: $heading-color;
