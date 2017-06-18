@@ -5,6 +5,12 @@ a{
 	}
 }
 
+.fixed{
+	position: fixed;
+	top: 0;
+	z-index: 3;
+} 
+
 .container{
 	>.row{
 		>h2.heading, h3{
